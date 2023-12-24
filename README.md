@@ -31,5 +31,29 @@ In this section, you’ll use Python and SQLAlchemy to do a basic climate analys
 
 * Plot the results by using the DataFrame plot method, as the following image shows:
 
+![Snip20231223_1](https://github.com/JesseOli100/sqlalchemy-challenge/assets/62526904/5e3a8dae-76c9-422c-b087-a3778c082302)
+
+* Use Pandas to print the summary statistics for the precipitation data
+
+# Station Analysis
+
+* Design a query to calculate the total number of stations in the dataset.
+
+* Design a query to find the most-active stations (that is, the stations that have the most rows). To do so, complete the following steps:
+
+* List the stations and observation counts in descending order.
+  Answer the following question: which station id has the greatest number of observations?
+  
+* Design a query that calculates the lowest, highest, and average temperatures that filters on the most-active station id found in the previous query
+
+* Design a query to get the previous 12 months of temperature observation (TOBS) data. To do so, complete the following steps:
+
+  1) Filter by the station that has the greatest number of observations.
+
+  2) Query the previous 12 months of TOBS data for that station.
+
+  3) Plot the results as a histogram with bins=12, as the following image shows:
+ 
+  
 
 
